@@ -1,0 +1,106 @@
+.book-link :hover {
+	box-shadow: 0px -2px 10px  rgba(0,0,0,1);
+}
+
+
+a.btn {
+	margin: 30px 7px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar .nav-item:hover .nav-link {
+	background-color: white;
+	color: #FFA900;
+	border-radius: 15px;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	background: #232323;
+}
+
+.accordion {
+	margin: 40px 0;
+}
+
+.accordion .item {
+	border: none;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.t-p {
+
+	color: rgb(193, 206, 216);
+	padding: 10px 30px 0px 30px;
+}
+
+.t-p-1 {
+	color: rgb(193, 206, 216);
+	padding: 10px 30px 0px 30px;
+	color:white;
+}
+.accordion .item .item-header h2 button.btn.btn-link {
+	background: #333435;
+	color: white;
+	border-radius: 0px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 2.5;
+	text-decoration: none;
+}
+
+.accordion .item .item-header {
+	border-bottom: none;
+	background: transparent;
+	padding: 0px;
+	margin: 2px;
+}
+
+.accordion .item .item-header h2 button {
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+.accordion .item .item-header h2 i {
+	float: right;
+	font-size: 30px;
+	color: #eca300;
+	background-color: black;
+	width: 60px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+button.btn.btn-link.collapsed i {
+	transform: rotate(0deg);
+}
+
+button.btn.btn-link i {
+	transform: rotate(180deg);
+	transition: 0.5s;
+}
+button{
+	border:0;
+	background:0;
+}
+.book-imgs{
+	height: 180px; 
+	width: 120px
+}
