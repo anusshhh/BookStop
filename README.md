@@ -22,13 +22,18 @@ A dynamic JSP Servlet-based web application for library management. Users can ef
 
 ## Installation
 Clone the repository.
+
 Import the database schema into MySQL.
+
 Configure the database connection settings in the application.
+
 Deploy the application on a web server.
 
 ## Usage
 Access the application through a web browser.
+
 Users can browse books, add to the wishlist, view browsing history, and check fines.
+
 Admins can access the dashboard to manage books, borrowing records, and fines.
 
 ## Contributions
