@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public final class DbConnection {
 	private static String jdbcUrl = "jdbc:mysql://localhost:3306/bookstop?allowMultiQueries=true";
 	private static String jdbcUsername = "root";
-	private static String jdbcPassword = "2662851";
+	private static String jdbcPassword = "";
 	private static String jdbcDriver = "com.mysql.cj.jdbc.Driver";
 	private static Connection con = null;
 	
